@@ -1,0 +1,11 @@
+Receipts one
+
+        Account Code : 123456789 OrderDate : 11-07-2022 Email : check@gmail.com Phone no : +92300321456 Order # : 0000200 Invoice Date : 11-07-2022 DueDate : 30-07-2022
+
+Receipts two
+
+       order date : 11/10/2018 Account Code : 123456789  Email : check@gmail.com Phone no : +92300321456 Order # : 0000200 Invoice Date : 11-07-2022 Due Date : 30-07-2022
+
+Receipts three
+
+        Order Details:  order date 11/10/2018 and  shipping date for this product is 11/07/2022  duedate 2022-11-07

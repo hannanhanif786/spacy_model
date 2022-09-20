@@ -1,0 +1,20 @@
+{"label":"ORDERDATE","pattern":[{"LOWER":"orderdate"},{"IS_PUNCT":true,"OP":"?"},{"TEXT":{"REGEX":"^\\d{1,2}/\\d{1,2}/\\d{2}(?:\\d{2})?$"}}]}
+{"label":"ORDERDATE","pattern":[{"LOWER":"orderdate"},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_DIGIT":true}]}
+{"label":"ORDERDATE","pattern":[{"LOWER":"orderdate"},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_ALPHA":true},{"ORTH":"-"},{"IS_DIGIT":true}]}
+{"label":"ORDERDATE","pattern":[{"LOWER":"orderdate"},{"IS_PUNCT":true,"OP":"?"},{"IS_ALPHA":true},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true}]}
+{"label":"ORDERDATE","pattern":[{"LOWER":"order date"},{"IS_PUNCT":true,"OP":"?"},{"TEXT":{"REGEX":"^\\d{1,2}/\\d{1,2}/\\d{2}(?:\\d{2})?$"}}]}
+{"label":"ORDERDATE","pattern":[{"LOWER":"order date"},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_DIGIT":true}]}
+{"label":"ORDERDATE","pattern":[{"LOWER":"order date"},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_ALPHA":true},{"ORTH":"-"},{"IS_DIGIT":true}]}
+{"label":"ORDERDATE","pattern":[{"LOWER":"order date"},{"IS_PUNCT":true,"OP":"?"},{"IS_ALPHA":true},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true}]}
+{"label":"ORDERDATE","pattern":[{"LOWER":"order"},{"IS_SPACE":true,"OP":"?"},{"LOWER":"date"},{"IS_PUNCT":true,"OP":"?"},{"TEXT":{"REGEX":"^\\d{1,2}/\\d{1,2}/\\d{2}(?:\\d{2})?$"}}]}
+{"label":"ORDERDATE","pattern":[{"LOWER":"order"},{"IS_SPACE":true,"OP":"?"},{"LOWER":"date"},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_DIGIT":true}]}
+{"label":"DUEDATE","pattern":[{"LOWER":"duedate"},{"IS_PUNCT":true,"OP":"?"},{"TEXT":{"REGEX":"^\\d{1,2}/\\d{1,2}/\\d{2}(?:\\d{2})?$"}}]}
+{"label":"DUEDATE","pattern":[{"LOWER":"duedate"},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_DIGIT":true}]}
+{"label":"DUEDATE","pattern":[{"LOWER":"duedate"},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_ALPHA":true},{"ORTH":"-"},{"IS_DIGIT":true}]}
+{"label":"DUEDATE","pattern":[{"LOWER":"duedate"},{"IS_PUNCT":true,"OP":"?"},{"IS_ALPHA":true},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true}]}
+{"label":"DUEDATE","pattern":[{"LOWER":"due date"},{"IS_PUNCT":true,"OP":"?"},{"TEXT":{"REGEX":"^\\d{1,2}/\\d{1,2}/\\d{2}(?:\\d{2})?$"}}]}
+{"label":"DUEDATE","pattern":[{"LOWER":"due date"},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_DIGIT":true}]}
+{"label":"DUEDATE","pattern":[{"LOWER":"due date"},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_ALPHA":true},{"ORTH":"-"},{"IS_DIGIT":true}]}
+{"label":"DUEDATE","pattern":[{"LOWER":"due date"},{"IS_PUNCT":true,"OP":"?"},{"IS_ALPHA":true},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true}]}
+{"label":"DUEDATE","pattern":[{"LOWER":"due"},{"IS_SPACE":true,"OP":"?"},{"LOWER":"date"},{"IS_PUNCT":true,"OP":"?"},{"TEXT":{"REGEX":"^\\d{1,2}/\\d{1,2}/\\d{2}(?:\\d{2})?$"}}]}
+{"label":"DUEDATE","pattern":[{"LOWER":"due"},{"IS_SPACE":true,"OP":"?"},{"LOWER":"date"},{"IS_PUNCT":true,"OP":"?"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_DIGIT":true},{"ORTH":"-"},{"IS_DIGIT":true}]}
